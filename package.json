@@ -1,0 +1,30 @@
+{
+  "name": "gatsby-playground",
+  "private": true,
+  "description": "Gatsby playground",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^3.1.2",
+    "gatsby-plugin-typography": "^3.2.0",
+    "gatsby-source-filesystem": "^3.2.0",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
